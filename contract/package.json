@@ -3,13 +3,14 @@
     "scripts": {
         "compile": "npx hardhat compile",
         "test": "npx hardhat test",
-        "deploy": "npx hardhat deploy"
+        "deploy": "npx hardhat ignition deploy ./ignition/modules/Crawdify.ts --network ethereumSepolia"
     },
     "devDependencies": {
         "@nomicfoundation/hardhat-toolbox": "^5.0.0",
         "hardhat": "^2.22.15"
     },
     "dependencies": {
-        "@openzeppelin/contracts": "^5.1.0"
+        "@openzeppelin/contracts": "^5.1.0",
+        "dotenv": "^16.4.5"
     }
 }
