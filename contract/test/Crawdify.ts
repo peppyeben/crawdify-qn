@@ -83,6 +83,11 @@ describe("Crawdify factory & storage contracts", function () {
                 eventLog?.topics
             );
 
+            const founderInitiatives =
+                await crawdifyFactory.getFounderInitiatives(owner.address);
+
+            expect(eventArgs[3]).to.equal(founderInitiatives[founderInitiatives.length - 1])
+
             const Crawdify_Storage = await ethers.getContractFactory(
                 "Crawdify_Storage"
             );
@@ -144,7 +149,7 @@ describe("Crawdify factory & storage contracts", function () {
                 parseUnits("10", "ether")
             );
 
-            console.log(Number(initiativeDataAfter.initiativeAmountRaised));
+            // console.log(Number(initiativeDataAfter.initiativeAmountRaised));
         });
     });
 });

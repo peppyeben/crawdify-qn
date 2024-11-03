@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "required": ["name", "description", "goal", "endDate", "userAddress"],
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "goal": {
+            "type": "number"
+        },
+        "endDate": {
+            "type": "number"
+        },
+        "category": {
+            "type": "string"
+        },
+        "userAddress": {
+            "type": "string"
+        },
+        "projectDeployed": {
+            "type": "string"
+        },
+        "dateCreated": {
+            "type": "number"
+        },
+        "imageUrl": {
+            "type": "string"
+        }
+    }
+}

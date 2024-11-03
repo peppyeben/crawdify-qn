@@ -26,6 +26,7 @@ contract Crawdify_Storage {
         initiative.initiativeGoal = _initiativeGoal;
         initiative.initiativeAmountRaised = 0;
         initiative.initiativeMetadata = _initiativeMetadata;
+        initiative.initiativeAddress = address(this);
     }
 
     function supportInitiative(uint _amount) external {

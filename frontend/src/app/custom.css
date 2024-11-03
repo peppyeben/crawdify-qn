@@ -1,0 +1,23 @@
+.loader {
+    width: 7rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #bce26b;
+    -webkit-mask: radial-gradient(
+        circle closest-side at 50% 40%,
+        #0000 94%,
+        #000
+    );
+    transform-origin: 50% 40%;
+    animation: l25 1.5s infinite linear;
+}
+@keyframes l25 {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.loader-glass-background {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.4rem);
+}

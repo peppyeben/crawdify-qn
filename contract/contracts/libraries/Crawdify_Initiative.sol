@@ -8,6 +8,7 @@ library Crawdify_Initiative {
         uint initiativeGoal;
         uint initiativeAmountRaised;
         bytes initiativeMetadata;
+        address initiativeAddress;
     }
 
     function supportInitiative(

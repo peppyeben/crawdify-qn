@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "required": ["user_name", "user_address", "date_created"],
+    "properties": {
+        "user_name": {
+            "type": "string"
+        },
+        "user_address": {
+            "type": "string"
+        },
+        "bio": {
+            "type": "string"
+        },
+        "date_created": {
+            "type": "number"
+        }
+    }
+}
