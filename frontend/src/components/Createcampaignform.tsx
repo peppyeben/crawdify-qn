@@ -78,7 +78,7 @@ const Createcampaignform: React.FC<CreateCampaignFormProps> = ({
                     <input
                         type="number"
                         className="px-4 py-6 pb-3 outline-none border-none rounded-lg glass-background w-full"
-                        placeholder="0.5"
+                        placeholder="5"
                         value={formData.goal}
                         onChange={handleChange}
                         name="goal"

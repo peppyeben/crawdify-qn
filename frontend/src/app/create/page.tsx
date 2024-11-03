@@ -89,7 +89,7 @@ function Create() {
 
                 setIcon("yes");
                 setMessage(
-                    "Campaign creation successful. Proceed to profile page to view",
+                    "Campaign creation successful. Proceed to explore page to view",
                 );
                 setIsShown(true);
                 return;
